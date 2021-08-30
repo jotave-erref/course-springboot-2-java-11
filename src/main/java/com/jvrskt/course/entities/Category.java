@@ -35,7 +35,7 @@ public class Category implements Serializable{
 	public Category(Long id, String name) {
 		super();
 		this.id = id;
-		Name = name;
+		this.Name = name;
 	}
 
 	public Long getId() {
@@ -51,7 +51,7 @@ public class Category implements Serializable{
 	}
 
 	public void setName(String name) {
-		Name = name;
+		this.Name = name;
 	}
 
 	public Set<Product> getProducts() {
